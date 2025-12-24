@@ -16,8 +16,8 @@ USAGE: ./download.sh [-h]
     -h  Display this message
 
 DESCRIPTION:
-    Initialize a new instance of an EmuDeck setup,
-    will create a new branch and set an environment file
+    Switch to the main branch to pull updates
+    and will merge it to current retro branch
 ```
 
 ### Upload
@@ -27,5 +27,6 @@ USAGE: $0 [-h] [-m] [-c <message>]"
     -m  Merge current retro branch to main branch"
     -c  Commit message (Default="[ADD] - save files")
 DESCRIPTION:
-    Add all saves files and push them to current retro branch branch
+    Add all saves files and push them to current retro branch
+    Will merge changes to main branch if specified
 ```
