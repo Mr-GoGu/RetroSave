@@ -39,11 +39,11 @@ if [[ -z "$commit" ]]; then
 fi
 
 # Push to local branch
-echo -e "-- Push to branch $1"
+echo -e "-- Push to branch $RETRO_BRANCH"
 git add .
 git commit -m "$commit"
 git push
-echo -e "-- Push to branch $1 - done"
+echo -e "-- Push to branch $RETRO_BRANCH - done"
 
 if ! $merge; then
     exit 0
@@ -52,7 +52,7 @@ fi
 echo -e "-- Merge to branch main"
 git switch main
 git pull
-git merge $1
+git merge $RETRO_BRANCH
 git push
-git switch $1
+git switch $RETRO_BRANCH
 echo -e "-- Merge to branch main - done"
