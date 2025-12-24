@@ -50,4 +50,10 @@ if ! $merge; then
 fi
 
 echo -e "-- Merge to branch main"
+git switch main
+git push -u origin main
+git merge $1 main
+git push
+git switch $1
+git push -u origin $1
 echo -e "-- Merge to branch main - done"
