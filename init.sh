@@ -13,7 +13,7 @@ done
 if $help; then
     echo -e "USAGE: $0 <branch> [-h]"
     echo -e "\t-h  Display this message"
-    echo -e "\nDESCRIPTION:\n\tInitialize a new instance of an EmuDeck setup, will create a new branch and set an environment file"
+    echo -e "\nDESCRIPTION:\n\tInitialize a new instance of an EmuDeck setup,\nwill create a new branch and set an environment file"
     exit 0
 fi
 

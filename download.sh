@@ -24,7 +24,7 @@ done
 if $help; then
     echo -e "USAGE: $0 [-h]"
     echo -e "\t-h  Display this message"
-    echo -e "\nDESCRIPTION:\nCheckout to the main branch and will merge it to $RETRO_BRANCH branch"
+    echo -e "\nDESCRIPTION:\nSwitch to the main branch to pull updates\nand will merge it to $RETRO_BRANCH branch"
     exit 0
 fi
 

@@ -30,7 +30,7 @@ if $help; then
     echo -e "\t-h  Display this message"
     echo -e "\t-m  Merge $RETRO_BRANCH to main branch"
     echo -e "\t-c  Commit message (Default=\"[ADD] - save files\")"
-    echo -e "\nDESCRIPTION:\n\tAdd all saves files and push them to $RETRO_BRANCH branch"
+    echo -e "\nDESCRIPTION:\n\tAdd all saves files and push them to $RETRO_BRANCH branch\nWill merge changes to main branch if specified"
     exit 0
 fi
 
