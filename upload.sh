@@ -41,7 +41,7 @@ fi
 # Push to local branch
 echo -e "-- Push to branch $1"
 git add .
-git commit -m $commit
+git commit -m "$commit"
 git push
 echo -e "-- Push to branch $1 - done"
 
