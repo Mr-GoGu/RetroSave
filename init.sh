@@ -5,7 +5,7 @@ help=false
 while getopts "h" opt; do
     case "$opt" in
         h) help=true ;;
-        ?) echo "ERROR: Unknown option -$opt, leaving..." >&2; exit 1 ;;
+        ?) echo -e "ERROR: Unknown option -$opt, leaving..." >&2; exit 1 ;;
     esac
 done
 
