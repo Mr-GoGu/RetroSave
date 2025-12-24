@@ -26,7 +26,7 @@ done
 
 # Help message
 if $help; then
-    echo "USAGE: $0 [-h]"
+    echo "USAGE: $0 [-h] [-m] [-c <message>]"
     echo -e "\t-h  Display this message"
     echo -e "\t-m  Merge $RETRO_BRANCH to main branch"
     echo -e "\t-c  Commit message (Default=\"[ADD] - save files\")"
