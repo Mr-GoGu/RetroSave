@@ -37,6 +37,7 @@ git switch main
 git pull
 git switch $RETRO_BRANCH
 git merge main
+git push
 echo -e "-- Merge branch main to $RETRO_BRANCH - done"
 
 echo -e "-- Restore branch $RETRO_BRANCH"
